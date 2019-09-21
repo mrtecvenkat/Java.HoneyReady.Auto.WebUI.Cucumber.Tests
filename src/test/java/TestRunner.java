@@ -5,6 +5,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import test.BaseTest;
+import test.tmp.Base;
 
 @CucumberOptions(
         features = "src/test/resources/features",
@@ -16,12 +18,14 @@ import org.testng.annotations.Test;
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
         })
-public class TestRunner {
+public class TestRunner extends BaseTest{
     private TestNGCucumberRunner testNGCucumberRunner;
 
     @BeforeClass(alwaysRun = true)
     public void setUpClass() throws Exception {
+        //BaseTest.DRIVER_PATH =  System.getProperty("c.environment");
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
+
     }
 
     @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
