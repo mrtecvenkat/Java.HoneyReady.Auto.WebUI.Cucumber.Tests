@@ -1,0 +1,50 @@
+
+target/*.*
+target/cucumber-reports/cucumber-pretty/formatter.js
+target/cucumber-reports/cucumber-pretty/index.html
+target/cucumber-reports/cucumber-pretty/jquery-1.8.2.min.js
+target/cucumber-reports/cucumber-pretty/report.js
+target/cucumber-reports/cucumber-pretty/style.css
+target/cucumber-reports/CucumberTestReport.json
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/surefire-reports/BDD Test Suite/Login and Update Profile Test.html
+target/surefire-reports/BDD Test Suite/Login and Update Profile Test.xml
+target/surefire-reports/emailable-report.html
+target/surefire-reports/index.html
+target/surefire-reports/junitreports/TEST-TestRunner.xml
+target/surefire-reports/old/BDD Test Suite/classes.html
+target/surefire-reports/old/BDD Test Suite/groups.html
+target/surefire-reports/old/BDD Test Suite/methods-alphabetical.html
+target/surefire-reports/old/BDD Test Suite/methods.html
+target/surefire-reports/TEST-TestSuite.xml
+target/surefire-reports/testng-results.xml
+target/surefire-reports/TestSuite.txt
+target/test-classes/core/BaseTest.class
+target/test-classes/core/helper/TestKeywords$Action.class
+target/test-classes/core/helper/TestKeywords$BaseFolderName.class
+target/test-classes/core/helper/TestKeywords$BrowserList.class
+target/test-classes/core/helper/TestKeywords$ColumnName.class
+target/test-classes/core/helper/TestKeywords$DataType.class
+target/test-classes/core/helper/TestKeywords$ErrorType.class
+target/test-classes/core/helper/TestKeywords$OSList.class
+target/test-classes/core/helper/TestKeywords$ReportFolderName.class
+target/test-classes/core/helper/TestKeywords$ReportName.class
+target/test-classes/core/helper/TestKeywords$Selecots.class
+target/test-classes/core/helper/TestKeywords$TableNames.class
+target/test-classes/core/helper/TestKeywords.class
+target/test-classes/core/Reporter$REPORT_TYPE.class
+target/test-classes/core/Reporter.class
+target/test-classes/core/UtilHelper.class
+target/test-classes/features/AppHome.feature
+target/test-classes/stepdefs/CommonStepDef.class
+target/test-classes/stepdefs/HellowOne.class
+target/test-classes/TestRunner.class
+target/cucumber-reports/cucumber-pretty/report.js
+target/cucumber-reports/CucumberTestReport.json
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/surefire-reports/BDD Test Suite/Login and Update Profile Test.html
+target/surefire-reports/BDD Test Suite/Login and Update Profile Test.xml
+target/surefire-reports/emailable-report.html
+target/surefire-reports/index.html
+target/surefire-reports/junitreports/TEST-TestRunner.xml
+*.html

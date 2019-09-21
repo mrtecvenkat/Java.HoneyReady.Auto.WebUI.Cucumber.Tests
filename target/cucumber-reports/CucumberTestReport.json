@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Welcome message test ONE",
+        "description": "",
+        "id": "app-home;welcome-message-test-one",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22881150700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I logged in to the app \u0027soneuser\u0027 as admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "soneuser",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonStepDef.iLoggedInToTheAppSoneuserAsAdmin(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4263824900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on \u0027Contacts\u0027 menu item from \u0027Contact\u0027 menu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contacts",
+                  "offset": 12
+                },
+                {
+                  "val": "Contact",
+                  "offset": 38
+                }
+              ],
+              "location": "CommonStepDef.iClickOnContactsMenuItemFromContactMenu(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1931421900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on \u0027Create contact\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create contact",
+                  "offset": 12
+                }
+              ],
+              "location": "CommonStepDef.iClickOnCreateContactButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3574705300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I create contacts with below deatils",
+            "match": {
+              "location": "CommonStepDef.iCreateContactsWithBelowDeatils(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "FirstName",
+                  "LastName"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "someone@gmail.com",
+                  "First001",
+                  "section001"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "App Home",
+    "description": "",
+    "id": "app-home",
+    "keyword": "Feature",
+    "uri": "AppHome.feature"
+  }
+]
